@@ -2,7 +2,7 @@
 ### In this project, I was hoping to solve a fun question using data and see if the results made sense.  Using a linear regression, could I determine what aspects of a Ferrari devalued the car and which aspects added value in order to "build the best value car". 
 
 ## The Data:
-  I gathered my own data by scraping the website: [Autotrader](https://autotrader.com) and also by downloading a comparison dataset from [Kaggle](https://www.kaggle.com/datasets/hellbuoy/car-price-prediction).  My goal was to see how my data compared to a known useable dataset that many people hae used successfully for a similar useage goal.  I used the BeautifulSoup4 library in Python to scrape the autotrader website for about 2000 cars before cleaning and converted the data to a csv, which was very easy to compare to the downloadable csv from Kaggle.  Initially, I had wanted to scrape more car samples and a wider variety, but the web scraping process is very time consuming and even scraping 2000 could take over 30 minutes.  Another issue I came across was that not every element on a website is scrapable.  Some items were not scrapable using the standard techniques and were locked behind JavaScript objects.  Because of this challange, in my timeframe, I had scrape fewer unique values from the webpages than I hoped for. 
+  I gathered my own data by scraping the website: [Autotrader](https://autotrader.com) and also by downloading a comparison dataset from [Kaggle](https://www.kaggle.com/datasets/hellbuoy/car-price-prediction).  My goal was to see how my data compared to a known usable dataset that many people hae used successfully for a similar usage goal.  I used the BeautifulSoup4 library in Python to scrape the autotrader website for about 2000 cars before cleaning and converted the data to a csv, which was very easy to compare to the downloadable csv from Kaggle.  Initially, I had wanted to scrape more car samples and a wider variety, but the web scraping process is very time consuming and even scraping 2000 could take over 30 minutes.  Another issue I came across was that not every element on a website is scrapable.  Some items were not scrapable using the standard techniques and were locked behind JavaScript objects.  Because of this challange, in my timeframe, I had scrape fewer unique values from the webpages than I hoped for. 
  I had to try and be creative using my outside knowledge to create a few extra variables.  For example, I know that the vast majority of Ferraris are rear wheel drive (rwd), but there are a few models that are all wheel drive (awd).  Using this knowledge, if I could scrape the model name, then I also knew the drivetrain of the car as well and could use it as another feature.   
 
 ## My Analysis:
@@ -14,6 +14,23 @@
 
 ## My Conclusions:
   My conclusions after comparing the two independent datasets is that there are some common themes but they are very different products.  One dataset contains high value luxury commodities and the other has a mix of regular middle value commodities.  Keeping in mind the goal of my project was to try and get a good deal on a car, my strategy would follow some of those themes in each of the datasets.  Based on my findings in the expensive Ferrari dataset, if I was searching for the best Ferrari for my needs, then I would first narrow my search by model name since that is the most important feature, then down the list of features until I am left with a small subset of choices to buy.  In the standard dataset, I would choose a less desired car brand, then a less desired model from there.  It looks like the crucial aspect to choosing an economic car in either dataset is selecting the correct model first.
+  <details>
+  <summary>Spoiler warning</summary>
+  
+  The Cheapest Ferrari Build:  
+    
+  Ferrari California  
+  Year as low as possible  
+  Mileage as high as possible  
+  Color  
+  8-Speed Automatic Transmission  
+  8-Cylinder Turbo Gas Engine  
+  Bordeaux Leather Seats  
+  Used
+  Nero Exterior
+  
+  
+</details>
 
 ## Project Skill Goals:
   The main purpose of this project was to strengthen my web scraping and visualization skills.  Through Python, there are many ways to gather specific data for projects, in this class we discussed using APIs, web scraping, and the classic downloading data.  I personally like the concept of web scraping and I have used it before but it is very tricky because websites change and a web scraping script that worked months ago may not even run later.  I took this project as an opportunity to cement my ability to scrape a website and gather specific data that I need to answer a question that I am curious about.  
