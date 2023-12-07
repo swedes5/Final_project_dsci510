@@ -1,8 +1,25 @@
 # DSCI510 Final Project: How to get the Best Deal on a Ferrari
 ### In this project, I was hoping to solve a fun question using data and see if the results made sense.  Using a linear regression, could I determine what aspects of a Ferrari devalued the car and which aspects added value in order to "build the best value car". 
 
-## DEPENDENCIES:  
+## Dependencies:  
 Make sure to double check the requirements.txt file to import all libraries needed.  You may need to pip install some libraries before they can be imported.  I had to do this with regex.  However, once you solve any installation problems, all the libraries simply are imported and their functions used.  I used Python version 3.9.7
+
+## Project Layout:  
+The project layout follows this structure:  
+- data
+  - processed
+    - clean_data.csv  (This is my scraped data csv containing cleaned data that is used in the dsci510_final_analysis_submitted.ipynb file)
+    - downloaded_car_dataset.csv  (This is the comparison data csv containing cleaned data that is used in the dsci510_final_analysis_submitted.ipynb file)
+  - raw
+    - noncleaned_data.csv  (This is the raw scraped data that I scraped directly before transforming it to its cleaned version)
+- results
+  - DSCI510 Final Project Write Up Updated.pdf  (This is my final write up explaining my processes/analysis/visualizations a little bit more deeply than below in the read me)
+  - dsci510_final_analysis_submitted.ipynb  (This is my ran Jupyter Notebook containing the analysis and visualization code, it has the base images that I use in my Final Project Write Up)
+- src
+  - dsci510_final_analysis_submitted.ipynb  (This is my ran Jupyter Notebook containing the analysis and visualization code, it has the base images that I use in my Final Project Write Up) (duplicate file)
+  - get_clean_data.py  (This is my Python script that I used to gather all my data for the clean_data.csv)
+  - README.md  (The README)
+  - requirements.txt  (This is the list of all dependencies needed to run my code)
 
 ## The Data:
   I gathered my own data by scraping the website: [Autotrader](https://autotrader.com) and also by downloading a comparison dataset from [Kaggle](https://www.kaggle.com/datasets/hellbuoy/car-price-prediction).  My goal was to see how my data compared to a known usable dataset that many people have used successfully for a similar usage goal.  I used the BeautifulSoup4 library in Python to scrape the autotrader website for about 2000 cars before cleaning and converting the data to a csv, which was very easy to compare to the downloadable csv from Kaggle.  Initially, I had wanted to scrape more car samples and a wider variety, but the web scraping process is very time consuming and even scraping 2000 could take over 30 minutes.  Another issue I came across was that not every element on a website is scrapable.  Some items were not scrapable using the standard techniques and were locked behind JavaScript objects.  Because of this challenge, in my timeframe, I scraped fewer unique values from the web pages than I hoped for. 
