@@ -1,7 +1,7 @@
 # DSCI510 Final Project: How to get the Best Deal on a Ferrari
 ### In this project, I was hoping to solve a fun question using data and see if the results made sense.  Using a linear regression, could I determine what aspects of a Ferrari devalued the car and which aspects added value in order to "build the best value car". 
 
-##DEPENDENCIES:  
+## DEPENDENCIES:  
 Make sure to double check the requirements.txt file to import all libraries needed.  You may need to pip install some libraries before they can be imported.  I had to do this with regex.  However, once you solve any installation problems, all the libraries simply are imported and their functions used.  I used Python version 3.9.7
 
 ## The Data:
