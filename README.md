@@ -15,7 +15,7 @@
 ## My Conclusion:
   My conclusion after comparing the two independent datasets is that there are some common themes but they are very different products.  One dataset contains high value luxury commodities and the other has a mix of regular middle value commodities.  Keeping in mind the goal of my project was to try and get a good deal on a car, my strategy would follow some of those themes in each of the datasets.  Based on my findings in the expensive Ferrari dataset, if I was searching for the best Ferrari for my needs, then I would first narrow my search by model name since that is the most important feature, then down the list of features until I am left with a small subset of choices to buy.  In the standard dataset, I would choose a less desired car brand, then a less desired model from there.  It looks like the crucial aspect to choosing an economic car in either dataset is selecting the correct model first.
   <details>
-  <summary>Spoiler warning</summary>
+  <summary>The Potential Cheapest Ferrari</summary>
   
   The Cheapest Ferrari Build:  
     
