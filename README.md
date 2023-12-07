@@ -14,7 +14,19 @@ Make sure to double check the requirements.txt file to import all libraries need
   <li>matplotlib-inline==0.1.2</li>
   <li>beautifulsoup4==4.10.0</li>
   <li>shap==0.11.2</li>
-</ul> 
+</ul>  
+
+  If Attempting to run my code to obtain the exact same results:  
+  Run files in this order:  
+  <ol>
+    <li>get_clean_data.py **Be aware that this web scraping may take 30 minutes** </li>
+    <li>dsci510_final_analysis_submitted.ipynb</li>
+  </ol>
+  OR
+  <ol>
+    <li>download clean_data.csv and downloaded_car_dataset.csv</li>
+    <li>dsci510_final_analysis_submitted.ipynb</li>
+  </ol>
 
 ## Project Layout:  
 The project layout follows this structure:  
