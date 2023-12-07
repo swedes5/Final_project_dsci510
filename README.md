@@ -2,7 +2,19 @@
 ### In this project, I was hoping to solve a fun question using data and see if the results made sense.  Using a linear regression, could I determine what aspects of a Ferrari devalued the car and which aspects added value in order to "build the best value car". 
 
 ## Dependencies:  
-Make sure to double check the requirements.txt file to import all libraries needed.  You may need to pip install some libraries before they can be imported.  I had to do this with regex.  However, once you solve any installation problems, all the libraries simply are imported and their functions used.  I used Python version 3.9.7
+Make sure to double check the requirements.txt file to import all libraries needed.  You may need to pip install some libraries before they can be imported.  I had to do this with regex.  However, once you solve any installation problems, all the libraries simply are imported and their functions used.  I used Python version 3.9.7 as well as these libraries:
+<ul>
+  <li>pandas==1.3.4</li>
+  <li>seaborn==0.11.2</li>
+  <li>scikit-learn==0.24.2</li>
+  <li>regex==2021.8.3</li>
+  <li>requests==2.26.0</li>
+  <li>numpy==1.20.3</li>
+  <li>matplotlib==3.4.3</li>
+  <li>matplotlib-inline==0.1.2</li>
+  <li>beautifulsoup4==4.10.0</li>
+  <li>shap==0.11.2</li>
+</ul> 
 
 ## Project Layout:  
 The project layout follows this structure:  
